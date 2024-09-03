@@ -1,0 +1,20 @@
+body {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background: violet;
+    color: #fff;
+    text-align: center;
+}
+
+section {
+    background: #fff;
+}
+
+footer {
+    background: #007BFF;
+    color: #fff;
+    text-align: center;
+}

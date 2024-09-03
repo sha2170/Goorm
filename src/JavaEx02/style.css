@@ -1,0 +1,27 @@
+h2 {
+    color: blue;
+    background-color: green;
+}
+
+.ex {
+    color:red;
+}
+
+#block {
+background-color: orange;
+}
+
+#inline span {
+    color: violet;
+}
+#inline {
+    color: orange;
+}
+#inline_block {
+    border-style:solid;
+    border-width: 10;
+    border-color: blue;
+}
+h2 {
+    color:black;
+}

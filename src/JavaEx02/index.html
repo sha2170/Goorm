@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML 기본 및 시맨틱 태그 연습</title>
+</head>
+<body>
+
+    <header>
+        <h1>나의 웹 페이지</h1>
+    </header>
+
+    <nav>
+        <a href = "#about">소개</a> | <a href="#service">서비스</a> | <a href="#contact">연락처</a>
+
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2>회사 소개</h2>
+            <p>저희 회사는 웹 개발을 하는 회사입니다.</p>
+            <img src="https://goormkdx.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F8b6f698e-8a67-4ad1-94b0-53ee956264c9%2Fe4b7e9ff-58de-4c2e-8482-7a31172c963f%2F%25EB%25B0%25B1%25EC%2597%2594%25EB%2593%259C.png?table=block&id=14e67cfa-06fd-48c2-bf0e-cd27e2115c49&spaceId=8b6f698e-8a67-4ad1-94b0-53ee956264c9&width=1470&userId=&cache=v2" width="800" height="200" alt="회사 이미지">
+        </section>
+
+        <section id="service">
+            <h2>제공 서비스</h2>
+            <ol>
+                <li>웹 사이트 개발</li>
+                <li>모바일 앱 개발</li>
+                <li>디지털 마케팅</li>
+            </ol>
+
+        </section>
+        <section id="contact">
+        <h2>연락처</h2>
+        <p>문의사항 있으시면 연락주세요</p>
+        <form action="/submit" method="post">
+            <label for="name">이름: </label><br>
+            <input type="text" id="name" name="name" placeholder="이름을 입력하세요"><br><br>
+
+            <label for="email">이메일: </label><br>
+            <input type="text" id="email" name="email" placeholder="이메일을 입력하세요"><br><br>
+
+            <label for="message">메시지: </label><br>
+            <input type="text" id="message" name="message" placeholder="메시지를 입력하세요"><br><br>
+
+            <input type="submit" value="보내기">
+
+        </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>나의 웹 페이지 | 모든 권리 보유</p>
+    </footer>
+</body>
+</html>
