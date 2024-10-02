@@ -1,7 +1,5 @@
 package Mission02;
 
-import Mission01.mission3_Shape_0827;
-
 public class mission3_Triangle_0827 extends mission3_Shape_0827 {
 	private double base;
 	private double height;
